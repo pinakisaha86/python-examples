@@ -107,7 +107,7 @@ def test():
     y = 'Local y'
     x = 'Local x'
     print(x + ', ' + y)  # prints 'Local x' and 'Local y'
-    print('hello')
+    print('hello  adasd')
 
 
 if __name__ == '__main__':
