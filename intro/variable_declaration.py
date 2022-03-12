@@ -102,7 +102,8 @@ x = 'Global x'
 
 
 def test():
-    # global x
+    global x
+    print(x)
     y = 'Local y'
     x = 'Local x'
     print(x + ', ' + y)  # prints 'Local x' and 'Local y'
