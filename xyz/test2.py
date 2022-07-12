@@ -76,4 +76,5 @@ def employee_check(work_hours):
             pass
 
     return (employee_of_the_month, current_max)
-print("who is the hardest worker:", employee_check(work_hours))
+result = employee_check(work_hours)
+print("who is the hardest worker:", result)
