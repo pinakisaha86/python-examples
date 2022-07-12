@@ -2,6 +2,12 @@ print("__________________________Iterating Through an Iterator next()___________
 # define a list
 my_list = [4, 7, 0, 3]
 
+for num in my_list:
+    print(num)
+
+for index in range(len(my_list)):
+    print(my_list[index])
+
 # get an iterator using iter()
 my_iter = iter(my_list)
 
@@ -47,6 +53,8 @@ print("__________________________for loop using list____________________________
 lang = ("Python", "C", "C++", "Java")
 for i in range(len(lang)):
    print(lang[i])
+else:
+    print('stopped!')
 
 print("__________________________for loop using list________________________________________________")
 
@@ -75,7 +83,7 @@ class PowTwo:
         return self
 
     def __next__(self):
-        if self.n <= self.max:
+        if self.n < self.max:
             result = 2 ** self.n
             self.n += 1
             return result

@@ -18,7 +18,7 @@ my_func = lambda x, y: x * y
 print(my_func(2, 3))
 
 # example to find squares of all numbers from a list
-my_list = [i for i in range(10)]
+my_list = [i * i for i in range(10)]
 # returns square of each number
 my_func = lambda x: x * x
 

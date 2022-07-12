@@ -1,6 +1,6 @@
 import pandas as pd
 
-txn_df = pd.read_csv('/Users/sidhartharay/Documents/my-workspace/rdd-examples/data/cred_txn.csv', sep='~')
+txn_df = pd.read_csv('H:/workspace/rdd-examples-master/data/cred_txn.csv', sep='~')
 print('Median of txn amount = ', txn_df['Amount'].median())
 print('Median txn data columns = ', txn_df.median())
 

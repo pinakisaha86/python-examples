@@ -18,7 +18,7 @@ pair = [
     ('lname', 'Bar'),
     ('email', 'foo@bar.com'),
 ]
-
+print("~~~~~~~~~~~~~~~~~~~~~~~ result ~~~~~~~~~~~~~~~~~~~~~~~")
 for p in pair:
     print('{} : {}'.format(p[0], p[1]))
 
@@ -35,3 +35,4 @@ print(type(a))
 for first, *rest in [(1, 2, 3), (4, 5, 6, 7)]:
    print("First:", first)
    print("Rest:", rest)
+

@@ -13,6 +13,7 @@ While tuples are immutable lists, frozensets are immutable sets.
 my_set = {1, 2, 3}
 print(my_set)
 
+
 # set of mixed data types
 my_set = {1.0, "Hello", (1, 2, 3)}
 print(my_set)

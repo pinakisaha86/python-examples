@@ -62,7 +62,7 @@ print('Elements from 0th Index to 4th Index:', my_list[0:5])
 print('Element at -7th Index:', my_list[-7])
 
 # To append an element to a list
-my_list.append(10)
+    my_list.append(10)
 print('Append:', my_list)
 
 # To find the index of a particular element
