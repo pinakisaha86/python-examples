@@ -47,9 +47,18 @@ a_string = 'aabbbcabc'
 collection = Counter(a_string)
 print(collection)
 
+print("__________________print any number____________________")
+x =input("enter the number:")
+x= int(x)
+count=0
+while x>0:
+    x = x // 10
+count=count+1
+print(count)
+
 print("__________________counter for taking count of string____________________")
 
-output = {}
-for ch in input:["aabbbcabc"]
-output[ch] = output.get(ch, 0) + 1
-print(output)
+# output = {}
+# for ch in input:["aabbbcabc"]
+# output[ch] = output.get(ch, 0) + 1
+# print(output)
