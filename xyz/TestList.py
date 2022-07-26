@@ -56,6 +56,18 @@ while x>0:
 count=count+1
 print(count)
 
+print("__________________print palindrome____________________")
+
+x=input("enter the number:");
+x =int(x);
+g=x;
+reverse_number=0;
+while x>0:
+    reverse_number =10*reverse_number+(x%10);
+    x=x//10;
+if(reverse_number==g):
+    print('Palindrome')
+
 print("__________________counter for taking count of string____________________")
 
 # output = {}
